@@ -76,6 +76,12 @@ public class UsuarioServiceImpl implements UsuarioService{
 	}
 
 	@Override
+	public List<Usuario> listarUsuarios() {
+		logger.info("Metodo listarUsuarios" );
+		return usuarioRepository.findAll();
+	}
+	
+	@Override
 	public Response updateUsuario(Usuario usuario) {
 		// TODO Auto-generated method stub
 		return null;
@@ -123,5 +129,7 @@ public class UsuarioServiceImpl implements UsuarioService{
 	public void deletePhone(int id) {
 		// TODO Auto-generated method stub
 	}
+
+
 
 }

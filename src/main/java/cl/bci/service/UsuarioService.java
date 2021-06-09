@@ -1,5 +1,7 @@
 package cl.bci.service;
 
+import java.util.List;
+
 import cl.bci.dao.Phone;
 import cl.bci.dao.Response;
 import cl.bci.dao.Usuario;
@@ -16,6 +18,7 @@ public interface UsuarioService {
 	
 	public Response deleteUsuario(Usuario usuario);
 	
+	public List<Usuario> listarUsuarios();
 	
 	public int createPhone(Phone phone) throws Exception;
 	

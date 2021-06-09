@@ -72,6 +72,18 @@ public class DemoController {
 		}
 	}
 
+	
+	@GetMapping(path={"/test/listarUsuarios"})
+	@ApiOperation(value = "Listar Usuarios", response = Response.class, tags = "Operaciones con Usuario")
+	public @ResponseBody ResponseEntity<Response>  getUsuarios(){
+		Response response= new Response();
+		response.setMensaje("Listado de Usuarios en BD");
+		response.setData(usuarioServiceImpl.listarUsuarios());
+		return ResponseEntity.ok(response);
+
+	}
+	
+	
 	@PostMapping(path={"/test/login"}, consumes=MediaType.APPLICATION_JSON_VALUE)
 	@ApiOperation(value = "Obtener Token", response = Response.class, tags = "Obtener Token")
 	public @ResponseBody ResponseEntity<Response>  setLogin(@ApiParam(name="Credenciales" ,value = "username y password", required = true) 
