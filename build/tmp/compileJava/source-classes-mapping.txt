@@ -1,0 +1,20 @@
+cl/bci/controller/Request.java
+ cl.bci.controller.Request
+cl/bci/repository/PhoneRepository.java
+ cl.bci.repository.PhoneRepository
+cl/bci/dao/Phone.java
+ cl.bci.dao.Phone
+cl/bci/dao/Usuario.java
+ cl.bci.dao.Usuario
+cl/bci/repository/UsuarioRepository.java
+ cl.bci.repository.UsuarioRepository
+cl/bci/PruebabciApplication.java
+ cl.bci.PruebabciApplication
+cl/bci/controller/Response.java
+ cl.bci.controller.Response
+cl/bci/controller/UsuarioRes.java
+ cl.bci.controller.UsuarioRes
+cl/bci/service/UsuarioServiceImpl.java
+ cl.bci.service.UsuarioServiceImpl
+cl/bci/service/UsuarioService.java
+ cl.bci.service.UsuarioService
