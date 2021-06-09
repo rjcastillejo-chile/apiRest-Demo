@@ -15,7 +15,7 @@ CREATE TABLE usuario (
 );
 
 INSERT INTO usuario (id,username, email, password,created,modified,isactive,last_login) VALUES
-  ('1','Ronny', 'rjcastillejo@gmail.com', '$2a$10$D2/hTHyJ/RYOXfCxjaqm8ed2C5K1EJyGcwvNuFQvh31c5jYej.HQ.','2020-01-01','2020-01-01',true,'2020-01-01'),
+  ('1','ronny', 'rjcastillejo@gmail.com', '$2a$10$D2/hTHyJ/RYOXfCxjaqm8ed2C5K1EJyGcwvNuFQvh31c5jYej.HQ.','2020-01-01','2020-01-01',true,'2020-01-01'),
   ('2','Bill', 'bill@gmail.com', '$2a$10$D2/hTHyJ/RYOXfCxjaqm8ed2C5K1EJyGcwvNuFQvh31c5jYej.HQ.','2020-01-01','2020-01-01',true,'2020-01-01'),
   ('3','Folrunsho', 'folrunsho@gmail.com', '$2a$10$D2/hTHyJ/RYOXfCxjaqm8ed2C5K1EJyGcwvNuFQvh31c5jYej.HQ.','2020-01-01','2020-01-01',true,'2020-01-01');
   
